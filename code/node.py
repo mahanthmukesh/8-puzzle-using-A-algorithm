@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Sep 21 22:38:17 2019
-
-@author: Mahanth
-"""
 import numpy as np
 
 class Node:
@@ -111,7 +105,7 @@ class Node:
         return count
             
 class Puzzle:
-
+    
     def least_fn(fringe):
         fn_fringe           =   []
         for i in range(len(fringe)):
