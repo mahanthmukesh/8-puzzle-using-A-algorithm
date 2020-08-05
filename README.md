@@ -27,9 +27,11 @@ to goal. The evaluation function A* star uses for calculating distance is
 The heuristic function is a way to inform the search regarding the direction to a goal. It provides
 an information to estimate which neighboring node will lead to the goal. The two heuristic
 functions that we considered for solving 8-puzzle problem are
-Misplaced Tile
+
+- Misplaced Tile
 The number of misplaced tiles calculated by comparing the current state and goal state.
-Manhattan Distance
+
+- Manhattan Distance
 The distance between two tiles measured along the axes of right angles. It is the sum of absolute
 values of differences between goal state (i, j) coordinates and current state (l, m) coordinates
 respectively, i.e. |i - l|+ |j - m|
