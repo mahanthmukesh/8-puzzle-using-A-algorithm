@@ -6,10 +6,10 @@ uniquely identified. Tile adjacent to the empty grid can be moved to the empty s
 its previous position empty until reaching the goal.
 
 # PROBLEM FORMULATION
-Goal: Goal State is initially given.
-States: Integer locations of tiles.
-Actions: Move the blank tile in left, up, down and right positions
-Performance: Number of total moves in the solution
+- Goal: Goal State is initially given.
+- States: Integer locations of tiles.
+- Actions: Move the blank tile in left, up, down and right positions
+-Performance: Number of total moves in the solution
 
 # A* ALGORITHM
 
@@ -18,10 +18,10 @@ combination of uniform cost search and best first search, which avoids expanding
 paths. A* star uses admissible heuristics which is optimal as it never over-estimates the path
 to goal. The evaluation function A* star uses for calculating distance is
 
--f(n) = g(n) + h(n)
--g(n) = cost so far to reach n
--h(n) = estimated cost from n to goal
--f(n) = estimated total cost of path through n to goal
+- f(n) = g(n) + h(n)
+- g(n) = cost so far to reach n
+- h(n) = estimated cost from n to goal
+- f(n) = estimated total cost of path through n to goal
 
 # Heuristic Functions
 The heuristic function is a way to inform the search regarding the direction to a goal. It provides
